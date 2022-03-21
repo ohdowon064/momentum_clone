@@ -1,0 +1,16 @@
+{
+    // "files.associations": {
+    //     "*.html": "html",
+    //     "*.js": "javascript",
+    //     "*.css": "css"
+    // },
+    "[javascript]": {
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    }
+}
