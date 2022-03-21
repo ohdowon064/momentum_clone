@@ -5,5 +5,14 @@ function handleTitleClick() {
     console.log("title was click!");
 }
 
+function handleMouseEnter() {
+    title.innerText = "Mouse is here!"
+}
+
+function handleMouseLeave() {
+    title.innerText = "Mouse is gone!"
+}
+
 title.addEventListener("click", handleTitleClick);
-console.log('test')
+title.addEventListener("mouseenter", handleMouseEnter);
+title.addEventListener("mouseleave", handleMouseLeave);
