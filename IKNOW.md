@@ -7,3 +7,10 @@ window: 브라우저 최상위 객체, 웹 브라우저 창이나 탭
 document: 웹 브라우저 내의 문서
 
 developer.mozilla.org 검색
+
+1. find the element
+2. listen the event
+3. react that event
+
+style -> css
+animation -> js
