@@ -14,3 +14,6 @@ developer.mozilla.org 검색
 
 style -> css
 animation -> js
+
+https://developer.mozilla.org/ko/docs/Web/API/Element/classList
+className/classList
