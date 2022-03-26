@@ -1,12 +1,17 @@
 const loginForm = document.querySelector('#login-form');
 const loginInput = loginForm.querySelector("input");
 
-function onLoginSubmit(event) {
-    event.preventDefault();
-    // 여기서 default(기본동작)은 submit시 새로고침
-    // 이 기본동작(현재는 새로고침)을 막는 함수
+const link = document.querySelector("a")
 
+function onLoginSubmit(event) {
+    event.preventDefault(); // 기본동작(새로고침) 막음
     console.dir(event);
 }
 
+function handleLinkClick(event) {
+    event.preventDefault(); // 기본동작(링크이동) 막음
+    console.log(event)
+}
+
 loginForm.addEventListener("submit", onLoginSubmit);
+link.onclick = handleLinkClick
