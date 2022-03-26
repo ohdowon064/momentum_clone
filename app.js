@@ -1,13 +1,12 @@
-const loginForm = document.getElementById('login-form');
-// document.querySelector("#login-form");
-
+const loginForm = document.querySelector('#login-form');
 const loginInput = loginForm.querySelector("input");
-// document.querySelector("#login-form input");
-const loginButton = loginForm.querySelector("button");
 
-function handleLoginBtnClick() {
-    const username = loginInput.value;
-    console.log(username);
+function onLoginSubmit(event) {
+    event.preventDefault();
+    // 여기서 default(기본동작)은 submit시 새로고침
+    // 이 기본동작(현재는 새로고침)을 막는 함수
+
+    console.dir(event);
 }
 
-loginButton.addEventListener("click", handleLoginBtnClick);
+loginForm.addEventListener("submit", onLoginSubmit);

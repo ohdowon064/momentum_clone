@@ -23,3 +23,11 @@ className/classList
 - 위 기능을 toggle 함수로 수행할 수 있다.
 
 form -> submit -> 새로고침
+    - 새로고침을 막을려면?
+    - 이벤트리스너로 받은 첫번째인자로 preventDefault()를 호출
+submit -> 버튼클릭 또는 엔터
+
+## Login
+### Evemts
+- 브라우저는 addEventListener 핸들러함수에 대해 특정 인자를 넘긴다.
+- 모든 이벤트리스너에 대해서 첫번째 인자는 빌생한 이벤트에 대한 여러 정보들을 가진다.
