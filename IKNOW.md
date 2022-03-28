@@ -35,3 +35,7 @@ submit -> 버튼클릭 또는 엔터
 
 ### Events 2
 - 이벤트리스너 함수는 내가 실행시키는 것이 아닌 브라우저가 이벤트가 발생했을 때 실행시키는 것이다.
+
+### Saving Username
+- local storage에 데이터를 저장한다.
+- setItem(key, value), getItem(key), removeItem(key)
