@@ -39,3 +39,8 @@ submit -> 버튼클릭 또는 엔터
 ### Saving Username
 - local storage에 데이터를 저장한다.
 - setItem(key, value), getItem(key), removeItem(key)
+
+## clock
+### intervals
+- interval: 시간간격
+  - setInterval(콜백함수, 시간간격)
