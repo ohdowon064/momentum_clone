@@ -43,4 +43,10 @@ submit -> 버튼클릭 또는 엔터
 ## clock
 ### intervals
 - interval: 시간간격
-  - setInterval(콜백함수, 시간간격)
+  - setInterval(함수, 시간간격)
+
+### timeout and Date
+- 특정 시간을 기다린 후 함수호출
+  - setTimeout(함수, 대기시간)
+- new Date()
+  - getDay(), getHours() 등

@@ -1,7 +1,9 @@
 const clock = document.querySelector("h2#clock"); // querySelector("#clock");
 
-function sayHello() {
-    console.log("hello");
+function getClock() {
+    const date = new Date();
+    clock.innerText = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 }
 
-setInterval(sayHello, 5000);
+getClock(); // 화면에 바로 보이도록 한번 호출해줌.
+setInterval(getClock, 1000);
