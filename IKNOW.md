@@ -50,3 +50,9 @@ submit -> 버튼클릭 또는 엔터
   - setTimeout(함수, 대기시간)
 - new Date()
   - getDay(), getHours() 등
+
+### PadStart
+- 내가 겪은 문제는 모두 다른 개발자도 겪었다.
+  - 현재 내가 하고싶은 것이 무엇인지
+  - 현재 나의 문제점이 무엇인지 명확하게 정의해라.
+- string.padStart(maxLength, ?fillOut);
