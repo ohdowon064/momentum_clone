@@ -21,3 +21,5 @@ className/classList
 1. 클래스이름이 있는지 체크
 2. 있으면 삭제, 없으면 추가
 - 위 기능을 toggle 함수로 수행할 수 있다.
+
+form -> submit -> 새로고침
