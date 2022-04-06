@@ -1,20 +1,19 @@
 {
-    // "files.associations": {
-    //     "*.html": "html",
-    //     "*.js": "javascript",
-    //     "*.css": "css"
-    // },
-    "[javascript]": {
-        "editor.tabSize": 4
-    },
-    "[html]": {
-        "editor.tabSize": 2
-    },
-    "[css]": {
-        "editor.tabSize": 2
-    },
-    "jslint.enable": true,
-    "jslint.version": "es6",
-    "jslint.version": "latest",
-    "jslint.version": "2013-02-03",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true
 }

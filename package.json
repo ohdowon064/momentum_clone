@@ -1,0 +1,19 @@
+{
+  "name": "momentum",
+  "version": "1.0.0",
+  "description": "momentum clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-me:ohdowon064/momentum_clone.git"
+  },
+  "author": "ohdowon064",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}

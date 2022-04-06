@@ -56,3 +56,9 @@ submit -> 버튼클릭 또는 엔터
   - 현재 내가 하고싶은 것이 무엇인지
   - 현재 나의 문제점이 무엇인지 명확하게 정의해라.
 - string.padStart(maxLength, ?fillOut);
+
+## Quotes and Background
+### Quotes
+- Math.round(f): 반올림
+- Math.ceil(f): 올림
+- Math.floor(f): 버림
