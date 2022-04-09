@@ -79,3 +79,7 @@ submit -> 버튼클릭 또는 엔터
 - document.createElement로 태그 생성
 - 태그변수.appendChilid로 하위 태그로 추가
 - event.target 속성으로 동일한 이벤트에 대한 여러 이벤트리스너 중 무엇이 실행되었는지 구분할 수 있다.
+
+- localStorage를 사용하여 저장하기
+- localStorage는 리스트를 저장할 수 없다. 오직 텍스트만 저장가능.
+- forEach 함수는 현재 처리되는 아이템에 대한 파라미터를 가진다.
