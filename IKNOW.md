@@ -73,3 +73,9 @@ submit -> 버튼클릭 또는 엔터
 
 - 자바스크립트는 클라이언트 단에서 파일시스템 접근을 지원하지않는다.
 - 서버사이드(node)에서만 가능하다. ex) fs
+
+### Todo
+
+- document.createElement로 태그 생성
+- 태그변수.appendChilid로 하위 태그로 추가
+- event.target 속성으로 동일한 이벤트에 대한 여러 이벤트리스너 중 무엇이 실행되었는지 구분할 수 있다.
